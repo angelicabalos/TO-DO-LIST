@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO-LIST</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <h1>Todo List App</h1>
+    <form id="todo-form">
+        <input type="date" id="date" placeholder="Date">
+        <input type="text" id="task" placeholder="Task">
+        <button id="add-btn">Add Task</button>
+        <button id="update-btn" style="display: none;">Update Task</button>
+    </form>
+    <table id="todo-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Task</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="todo-list"></tbody>
+    </table>
+
+    <script src="java.js"></script>
+</body>
+</html>
+
